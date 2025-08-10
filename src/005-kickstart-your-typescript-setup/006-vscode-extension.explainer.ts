@@ -1,3 +1,4 @@
 // Explain the VSCode extension
 
-const num: number = "asdawd";
+const str: string = "asdawd";
+// the anotation : tells us the aheah is the type okay

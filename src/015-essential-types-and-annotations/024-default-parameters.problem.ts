@@ -2,7 +2,7 @@ import { Expect, Equal } from "@total-typescript/helpers";
 
 import { expect, it } from "vitest";
 
-const concatName = (first: string, last?: string) => {
+const concatName = (first: string, last = "Pocock") => {
   if (!last) {
     return first;
   }
@@ -25,3 +25,5 @@ it("should return the first name", () => {
 
   expect(result).toEqual("John Pocock");
 });
+
+// pnpm vitest run src/015-essential-types-and-annotations/024-default-parameters.problem.ts

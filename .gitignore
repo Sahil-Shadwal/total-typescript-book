@@ -4,3 +4,8 @@ dist
 *.tsbuildinfo
 *.prompt.*
 .vscode/*.code-snippets
+*.js
+*.js.map
+*.d.ts
+*.d.ts.map
+tsconfig.json
